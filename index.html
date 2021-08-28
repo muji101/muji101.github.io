@@ -1,0 +1,382 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+		<title>Tugas | Landing Page 2</title>
+	</head>
+	<body>
+		<!--navbar-->
+		<nav id="navbar">
+			<div class="container">
+				<div class="menu">
+					<div id="logo">
+						<img src="./assets/logo-white.png" />
+					</div>
+					<div >
+						<ul class="menu-list font-mont">
+							<li><a href="#banner">HOME</a></li>
+							<span class="bulet"></span>
+							<li><a href="#about">ABOUT</a></li>
+							<span class="bulet"></span>
+							<li><a href="#ourservice">SERVICES</a></li>
+							<span class="bulet"></span>
+							<li><a href="#ourproject">PROJECTS</a></li>
+							<span class="bulet"></span>
+							<li><a href="#ourclient">CLIENT</a></li>
+							<span class="bulet"></span>
+							<li><a href="#latest">BLOG</a></li>
+							<span class="bulet"></span>
+							<li><a href="#contact">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<script>
+		// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+			document.getElementById("navbar").style.padding = "20px 10px";
+		  } else {
+			document.getElementById("navbar").style.padding = "30px 10px";
+		  }
+		}
+</script>
+		
+		<!--banner-->
+		<div id="banner">
+			<div class="container">
+				<div class="banner-content font-mont">
+					<p>IMAGINATION, INNOVATION, WORK COLLABORATION.</p>
+					<span class="button opc">LOOK MORE</span>
+				</div>
+			</div>
+		</div>
+		
+		<!--About-->
+		<div id="about">
+			<div class="container">
+				<div class="about-content">
+					<div class="about-text">
+						<h1>About our LeadGen interior design.</h1>
+						<h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries.</h2>
+						<p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled.</p>
+						<span class="button-about opc font-mont">
+							<a href="#">EXPLORE SERVICE <i class="fas fa-long-arrow-alt-right"></i></a>
+						</span>
+					</div>
+					<div class="about-image">
+						<img src="./assets/content-51.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Interior-design-->
+		<div id="interior">
+			<div class="interior-bg">
+				<div class="interior-content">
+					<div class="interior-title">
+						<h1>Interior designer</h1>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text.</p>
+					</div>
+					<div class="interior-list">
+						<div class="interior-list-menu">
+							<h1><i class="fas fa-paint-roller"></i>Interior expertise</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+						<div class="interior-list-menu">
+							<h1><i class="fas fa-lightbulb"></i>Creative collaboration</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+					<div class="interior-list">
+						<div class="interior-list-menu">
+							<h1><i class="fas fa-pen-nib"></i>Distinctive designs</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+						<div class="interior-list-menu">
+							<h1><i class="fas fa-sun"></i>Design without limits</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="interior-bg-img">
+				<img src="./assets/hero-bg22.jpeg">
+			</div>
+		</div>
+		
+		<!--Ourservices-->
+		<div id="ourservice">
+			<div class="container">
+				<div class="ourservice-content">
+					<div class="ourservice-title">
+						<h1>Our Services</h1>
+						<p>Interior Design typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.when an unknown of type and scrambled it to make a type specimen book.</p>
+					</div>
+				</div>
+				<div class="ourservice-cart font-mont">
+					<div class="cart">
+						<img src="./assets/team-08.jpeg">
+						<div class="cart-title">
+							<h1>COMMERCIAL DESIGN</h1>
+							<p>LOREM IPSUM</p>
+						</div>
+					</div>
+					<div class="cart">
+						<img src="./assets/team-01.jpeg">
+						<div class="cart-title">	
+							<h1>OFFICE DESIGN</h1>
+							<p>LOREM IPSUM</p>
+						</div>
+					</div>
+					<div class="cart">
+						<img src="./assets/team-02.jpeg">
+						<div class="cart-title">	
+							<h1>RESIDENTIAL DESIGN</h1>
+							<p>LOREM IPSUM</p>
+						</div>
+					</div>
+					<div class="cart">
+						<img src="./assets/team-03.jpeg">
+						<div class="cart-title">
+							<h1>HOSPITALLY DESIGN</h1>
+							<p>LOREM IPSUM</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		<!--ask-->
+		<div class="ask font-mont">
+			<h1>Are you looking for interior design expertise? &nbsp;&nbsp; <span class="opc"><a href="#">GET QUOTATION <i class="fas fa-long-arrow-alt-right"></i></a></span></h1>
+		</div>
+		
+		<!--ourproject-->
+		<div id="ourproject">
+			<div class="container">
+				
+				<div class="ourservice-title">
+					<h1>Our Project</h1>
+					<p>Interior Design typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.when an unknown of type and scrambled it to make a type specimen book.</p>
+				</div>
+			</div>
+				<div class="project">
+					<div class="ourproject-image">
+						<div class="img-zoom">
+							<img src="./assets/agency-work-01.jpeg">
+						</div>
+						<div class="img-zoom">
+							<img src="./assets/agency-work-02.jpeg">
+						</div>
+						<div class="img-zoom">
+							<img src="./assets/agency-work-03.jpeg">
+						</div>
+					</div>
+					<div class="ourproject-image">					
+						<div class="img-zoom">	
+							<img src="./assets/agency-work-04.jpeg">
+						</div>
+						<div class="img-zoom">
+							<img src="./assets/agency-work-05.jpeg">
+						</div>
+						<div class="img-zoom">
+							<img src="./assets/agency-work-06.jpeg">
+						</div>
+					</div>
+					<div class="project-all">
+						<div class="project-title">
+							<h1>1500</h1>
+							<p>Project Completed</p>
+							<div class="line"></div>
+						</div>
+						<div class="project-title">
+							<h1>1400</h1>
+							<p>Happy Clients</p>
+							<div class="line"></div>
+						</div>
+						<div class="project-title">
+							<h1>1250</h1>
+							<p>Cups of Coffee</p>
+							<div class="line"></div>
+						</div>
+						<div class="project-title">
+							<h1>1600</h1>
+							<p>Hours Worked</p>
+							<div class="line"></div>
+						</div>
+					</div>
+				
+			</div>
+		</div>
+		
+		<!--beautiful-home-->
+		<div class="beautiful">
+			<div class="container">
+				<div class="beautiful-content">
+					<div class="beautiful-list">
+						<h1>We make your beautiful home.</h1>
+						<h2>We offer a wide variety of trainings to achieve the best results.</h2>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled it to make a type specimen book. It has survived not only five centuries.
+						</p>
+						<span class="button-beautiful opc font-mont"><a href="#">EXPLORE BLOG</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--ourclient-->
+		<div id="ourclient">
+			<div class="container">
+				<div class="client">
+					<div class="ourservice-title">
+						<h1>Our Client</h1>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+					</div>
+					<div class="client-logo">
+						<img src="./assets/clients-6.png">
+						<img src="./assets/clients-2.png">
+						<img src="./assets/clients-3.png">
+						<img src="./assets/clients-5.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--simpleisgood-->
+		<div class="simple">
+			<div class="container">
+				<div class="simple-content">
+					<div class="simple-list">
+						<h1>Simple is good. We turn ideas into works of art.</h1>
+						<h2>Since our foundation in 2005 our goal has been to use digital technology to create experiences.
+						</h2>
+						<span class="button-simple opc font-mont"><a href="#">LET'S WORK TOGETHER <i class="fas fa-long-arrow-alt-right"></i></a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Latest blog-->
+		<div id="latest">
+			<div class="container">
+				<div class="latest-content">
+					<div class="latest-title">
+						<h1>Latest Blog</h1>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+					</div>
+				</div>
+				<div class="latest-cart">
+					<div class="cart-blog">
+						<img src="./assets/spa-blog-img01.jpeg">
+						<div class="cart-blog-title">
+							<h1>NOTHING CAN BE GAIN WITHOUT WARIKNG...</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+							<div class="garis"></div>
+							<h2 class="posted">9 JANUARI 2021 / POSTED BY KUWAT</h2>
+						</div>
+					</div>
+					<div class="cart-blog">
+						<img src="./assets/spa-blog-img02.jpeg">
+						<div class="cart-blog-title">	
+							<h1>EXPERT TIPS FOR DECORATING YOUR HOLIDAY...</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+							<div class="garis"></div>
+							<h2>9 JANUARI 2021 / POSTED BY KUWAT</h2>
+						</div>
+					</div>
+					<div class="cart-blog">
+						<img src="./assets/spa-blog-img03.jpeg">
+						<div class="cart-blog-title">	
+							<h1>THESE HAPPY DAYS ARE YOURS AND MINE...</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+							<div class="garis"></div>
+							<h2>9 JANUARI 2021 / POSTED BY KUWAT</h2>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		<!--contact us-->
+		<div id="contact">
+			<div class="container">
+				<div class="">
+					<div class="contact-content">
+						<div class="contact-title">
+							<h1>Contact Us</h1>
+						</div>
+						<div class="contact-list">
+							<div class="contact-name">
+								<span class="contact-icon">
+									<i class="fas fa-map-marker-alt"></i>
+								</span>
+								<p>301 The Greenhouse, Custard, Factory, London, E2 8DY.</p>
+							</div>
+							<div class="contact-name">
+								<span class="contact-icon">
+									<i class="fas fa-mobile-alt"></i>
+								</span>
+								<p>(M) +44 (0) 123 456 7890 (O) +44 (0) 123 456 7890</p>
+							</div>
+							<div class="contact-name">
+								<span class="contact-icon">
+									<i class="fas fa-mail-bulk"></i>
+								</span>
+								<p>no-reply@domain.com help@domain.com</p>
+							</div>
+						</div>
+						<div class="contact-input">
+							<div class="input-list">
+								<input type="text" placeholder="* Your Name"></input>
+								<input type="text" placeholder="* Your Email"></input>
+								<input type="text" placeholder="Your Phone"></input>
+							</div>
+							<div class="input-list">
+								<textarea placeholder="Your Message"></textarea>
+								<span class="button-beautiful opc font-mont"><a href="#">SEND MESSAGE</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<div class="logo">
+						<img src="./assets/logo-white.png" />
+					</div>
+					<div class="copy">
+						<p>&copy;2021 @bangku_wat all right reserved</p>
+					</div>
+					<div class="socialmedia">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#"><i class="fab fa-pinterest"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--iconfix-->
+		<div class="iconfix fix1">
+			<a><span>Purchase Theme</span></a> 				
+		</div>
+		<div class="iconfix fix2">
+			<a><span>All Template</span></a> 				
+		</div>
+	</body>
+</html>
